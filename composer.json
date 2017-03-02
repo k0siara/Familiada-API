@@ -1,0 +1,24 @@
+{
+    "name": "hoffamiliada",
+    "description": "Hoffamiliada REST API",
+    "keywords": ["microframework","rest","router"],
+    "homepage": "http://github.com/k0siara/hoffamiliada",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Patryk Marciszek-Kosieradzki",
+            "email": "patryk.kosieradzki@gmail.com",
+            "homepage": "http://www.patrykkosieradzki.com/"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.*",
+        "illuminate/database": "5.2.*",
+	    "monolog/monolog": "^1.17"
+    },
+    "autoload": {
+        "classmap" : [
+            "src/models"
+        ]
+    }
+}
